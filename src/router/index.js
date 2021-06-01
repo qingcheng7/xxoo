@@ -21,6 +21,10 @@ const routes = [
   {
     path: '*',
     component: () => import('../components/xixi')
+  },
+  {
+      path:'/vip',
+      component:()=>import('../components/vip')
   }
 ]
 
